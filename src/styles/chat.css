@@ -1,0 +1,110 @@
+.chatContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.messageBox{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+.msginput{
+    width: 80%;
+    margin: 20px;
+    border: none;
+    height: 40px;
+}
+.chaticons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.chaticon{
+    margin-left: 30px;
+}
+.background{
+    height: 100vh;
+    opacity: 0.1;
+    position:absolute;
+    z-index: -1;
+    width: 145vh;
+}
+.chatHeader{
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Chats{
+    height:70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.Chats::-webkit-scrollbar{
+    display: none;
+}
+.messagesend{
+    color: black;
+    background: #fdfbfe;
+    display: inline;
+    float: left;
+    padding-right: 9px;
+    clear: both;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.messagereceive{
+    color: black;
+    background: #e3fac5;
+    display: inline;
+    float: right;
+    padding-right: 9px;
+    clear: both;
+    border-radius: 5px;
+    padding: 8px;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.status{
+    margin-top: -13%;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #bcbcbc;
+}
+.zip{
+    background-color: #effeeb;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+button{
+    background-color: #dbebd1;
+    width: 40%;
+    border: none;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.zipdes{
+    color: grey;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.timestamp{
+    font-size: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;
+}
